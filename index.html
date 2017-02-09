@@ -5,15 +5,20 @@
 	<link rel="shortcut icon" href="gfx/favicon.jpg">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/accordionImageMenu.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 	<script type="text/javascript" src="js/jssor.slider.min.js"></script>
 	<script type="text/javascript" src="js/slider.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/DiagonalSlider.js"></script>
 	
 	<!--GOOGLE MAPS -->
 	<script src="http://maps.googleapis.com/maps/api/js"></script>
 	<script type="text/javascript" src="js/mapa2.js"></script>
 	
+	
+
 	<title>ARCHITECTURAL INSTALLATIONS</title>
 </head>
 <body class="preload hero">
@@ -115,26 +120,137 @@ fabrication processes and machinery, electronics, robotics, mechanics, hydraulic
 	</section>
 	
 	
-	<section id="projects">
-		<h1>PROJECTS</h1>
-		
-		<h3><a href="http://artica.cc/blog/2013/07/15/ciav-tech-report.html">Centro Interpretação Almada Velha</a></h3>
-		
-		<h3><a href="http://artica.cc/blog/2015/09/28/museu-da-vila-de-cascais.html">Museu da Vila de Cascais</a></h3>
-		
-		<h3><a href="http://artica.cc/blog/2015/09/04/30-anos-amoreiras.html">30th Anniversary Amoreiras</a></h3>
+</section>
 
-		<h3><a href="http://artica.cc/blog/2016/05/11/elevador-miradouro-amoreiras.html">Amoreiras 360 Panoramic View Elevator</a></h3>
-		
-		<h3><a href="http://artica.cc/blog/2011/12/26/secil-interactive-stand.html">SECIL Interactive Stand</a></h3>
 
-		<h3><a href="http://artica.cc/blog/2011/03/17/ccdr-lvt.html">CCDR LVT Interative Wall</a></h3>
+<section id="projects">
+    <img id="projects_logo" src="gfx/projects.png">
 
-		<h3><a href="http://artica.cc/blog/2016/07/08/avengers-station.html">Marvel Avengers S.T.A.T.I.O.N. Exhibition</a></h3>		
+    <div class="image_slider">
 
-		<h3><a href="http://artica.cc/blog/2012/10/01/shop-window-interactive-instalation.html">Shop Window Interactive Installation</a></h3>		
+        <div class="accordionMenu">
+            <div class="accordionSlider_item">
+	  		<img class="accordionImage" src="gfx/slides/slide9.jpg">
+                <div class="accordionText">
+					 <div id="containedTextTable">
 
-	</section>
+                    <h3>Centro Interpretação Almada Velha</h3>
+                    <p>Description 1</p>
+                    <a href="http://artica.cc/blog/2013/07/15/ciav-tech-report.html">
+
+                        <p> Read More</p>
+                    </a>
+					</div>
+                </div>
+            </div>
+            <div class="accordionSlider_item">
+			<img class="accordionImage" src="gfx/slides/slide5.jpg">
+                <div class="accordionText">
+					 <div id="containedTextTable">
+				
+                    <h3>Museu da Vila de Cascais</h3>
+                    <p>Description 2dddddddddddddddddddddddddddddddd<br />
+					Description 2dddddddddddddddddddddddddddddddd<br />
+					Description 2dddddddddddddddddddddddddddddddd</p>
+                    <a href="http://artica.cc/blog/2015/09/28/museu-da-vila-de-cascais.html">
+                        <p> Read More</p>
+                    </a>
+            </div>
+                </div>
+            </div>
+            <div class="accordionSlider_item">
+			<img class="accordionImage" src="gfx/slides/slide2.jpg">
+                <div class="accordionText">
+					 <div id="containedTextTable">
+
+                    <h3>30th Anniversary Amoreiras</h3>
+                    <p>We were asked by State of The Art to create three experiences, An interactive video wall, a corridor that could<br />
+					   show amoreiras timeline while the visitors walkby and at last, the great attraction of the exhibition, an elevator interior<br />
+					   that brings visitors to the last store, where they can have a full 360 degrees view of lisbon.<br />
+          -            Amoreiras is known by the highest point in Lisbon.</p>
+
+                    <a href="http://artica.cc/blog/2015/09/04/30-anos-amoreiras.html">
+                        <p> Read More</p>
+                    </a>
+
+            </div>
+                </div>
+            </div>
+
+            <div class="accordionSlider_item">
+			<img class="accordionImage" src="gfx/slides/slide1.jpg">
+                <div class="accordionText">
+					 <div id="containedTextTable">
+                    <h3>Amoreiras 360 Panoramic View Elevator</h3>
+                    <p>Description 4</p>
+                    <a href="http://artica.cc/blog/2016/05/11/elevador-miradouro-amoreiras.html">
+                        <p> Read More</p>
+                    </a>
+            </div>
+                </div>
+            </div>
+            <div class="accordionSlider_item">
+			<img class="accordionImage" src="gfx/slides/slide4.jpg">
+                <div class="accordionText">
+				 <div id="containedTextTable">
+                    <h3>SECIL Interactive Stand</h3>
+
+                    <p>Description 5</p>
+                    <a href="http://artica.cc/blog/2011/12/26/secil-interactive-stand.html">
+                        <p> Read More</p>
+                    </a>
+			</div>
+                </div>
+            </div>
+
+            <div class="accordionSlider_item">
+			<img class="accordionImage" src="gfx/slides/slide7.jpg">
+                <div class="accordionText">
+					 <div id="containedTextTable">
+                    <h3>CCDR LVT Interative Wall</h3>
+                    <p>Description 6</p>
+                    <a href="http://artica.cc/blog/2011/03/17/ccdr-lvt.html">
+
+                        <p> Read More</p>
+                    </a>
+            </div>
+                </div>
+            </div>
+
+            <div class="accordionSlider_item">
+			<img class="accordionImage" src="gfx/slides/slide3.jpg">
+                <div class="accordionText">
+				<div id="containedTextTable">
+                    <h3>Marvel Avengers S.T.A.T.I.O.N. Exhibition</h3>
+                    <p>Description 7</p>
+                    <a href="http://artica.cc/blog/2016/07/08/avengers-station.html">
+                        <p> Read More</p>
+                    </a>
+            </div>
+                </div>
+            </div>
+
+
+            <div class="accordionSlider_item">
+			<img class="accordionImage" src="gfx/slides/slide11.jpg">
+                <div class="accordionText">
+				<div id="containedTextTable">
+					<div id="divRow">
+                    <h3>Shop Window Interactive Installation</h3>
+                    <p>Description 8</p>
+                    <a href="http://artica.cc/blog/2012/10/01/shop-window-interactive-instalation.html">
+                        <p> Read More</p>
+                    </a>
+            </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</section>
 	
 
 	<section id="video">
@@ -145,46 +261,75 @@ fabrication processes and machinery, electronics, robotics, mechanics, hydraulic
 	
 	
 	<section id="testimonials">
-		<h1>TESTIMONIALS</h1>
+	 <img id="testimonials_logo" src="gfx/testimonials.png">
+	 
+	 <div id="containedDivMainTable">
+		<div id="divRow">
+		<div id="containedDivTable">
+		<div id="divPhotoCell">
+				<div class="circle layout-row layout-align-center-center"><div class="circle2 layout-row layout-align-center-center"><div class="circle3"></div></div></div>
+		</div>
+		</div>
+		<div id="divCell">
+			<p id="paragrafSpacing">
 		
-		<div>
-			<p>"Artica has helped Audience Entertainment produce one of its best outcomes to date.<br />
+			<text class="testimonial_name">Clilly Castiglia</text><br />
+			<text class="testimonial_occupation">Chief Technical Officer</text><br />
+			<a class="testimonial_workplace" href="http://www.audienceentertainment.com/">Audience Entertainment</a>
+			</p>
+			<p id="justifyText">"Artica has helped Audience Entertainment produce one of its best outcomes to date.<br />
 			The level of detail insight and creative problem solving has made the work even better than originally conceived.<br />
 			Artica has a thoughtful team of engineers and creatives who are committed to their work and expedite as promised and more."</p>
-			<p>
-			Clilly Castiglia<br />
-			Chief Technical Officer<br />
-			<a href="http://www.audienceentertainment.com/">Audience Entertainment</a><br />
-			</p>
-		</div>
-		<div>
-			<hr>
-			<p>"The guys at Artica are some of the best developers and creative minds I've worked with. They helped tie everything together for our Adidas project and I'd work with them every single day if I had the chance. Smart guys, and great people."</p>
-			<p>
-			Luc Schurgers<br/>
-			Creative Director/Partner<br/>
-			<a href="http://petgorilla.com/">PET GØRILLA</a>
-			</p>
-		</div>
-		<div>
-			<hr>
-			<p>"Trabalhamos com a Artica no <a href="http://artica.cc/blog/2013/07/15/ciav-tech-report.html">Centro de Interpretação de Almada Velha</a> em que desenvolveram, produziram e instalaram a componente audiovisual, cenográfica e aplicação interativa estruturantes para este novo equipamento municipal. Mais do que uma eficaz relação contratual, com manifesta competência e profissionalismo técnico exigidos, nomeadamente  antecipando limitações e preocupações a posteriori de manutenção e gestão dos dispositivos por parte do cliente, encontramos um parceiro com uma enorme capacidade de interação e mobilização criativa no domínio do design, cenografia, criação de ambientes sonoros capazes de despertar emoções, passar informação, desafiar à descoberta do território. Um processo em que se conjugou o conhecimento científico/técnico para soluções contemporâneas, com o saber do artesão que constrói fazendo. Uma cumplicidade que gostaríamos de prosseguir futuramente."</p>
-			<p>
-			Ângela Luzia<br/>
-			Chefe de Divisão de Museus e Património Cultural<br/>
-			<a href="http://www.m-almada.pt/xportal/xmain?xpid=cmav2">Câmara Municipal de Almada</a>
-			</p>
-		</div>
-		<div>
-			<hr>
-			<p>"Os projetos Metamorfose (2012) e Metamorfose II (2014) foram processos de conceção coletiva envolvendo mais de trinta criadores. Foram projetos extraordinariamente gratificantes pelo ponto de vista artístico e humano mas se me pedirem para os resumir numa palavra seria “caos”. E foi no meio do caos que fomos iluminados pelas qualidades da equipa da Artica: capacidade de improviso, descontração, criatividade, disponibilidade, capacidade de ouvir, amizade. Seguramente voltaremos a trabalhar juntos em novos projetos."</p>
-			<p>
-			Paulo Prata Ramos<br />
-			Diretor Técnico | Technical Director<br />
-			<a href="http://www.culturgest.pt/">Fundação Caixa Geral de Depósitos - Culturgest</a><br />
-			</p>
-		</div>
 
+		</div>
+				<div id="containedDivTable">
+		<div id="divPhotoCell">
+				<div class="circle layout-row layout-align-center-center"><div class="circle2 layout-row layout-align-center-center"><div class="circle3"></div></div></div>
+		</div>
+		</div>
+		<div id="divCell">
+				
+			<p id="paragrafSpacing">
+			<text class="testimonial_name">Luc Schurgers</text><br/>
+			<text class="testimonial_occupation">Creative Director/Partner</text><br/>
+			<a class="testimonial_workplace" href="http://petgorilla.com/">PET GØRILLA</a>
+			</p>
+			<p id="justifyText">"The guys at Artica are some of the best developers and creative minds I've worked with. They helped tie everything together for our Adidas project and I'd work with them every single day if I had the chance. Smart guys, and great people."</p>
+
+		
+		</div>
+		</div>
+		<br />
+	<div id="divRow">
+		<div id="containedDivTable">
+		<div id="divPhotoCell">
+				<div class="circle layout-row layout-align-center-center"><div class="circle2 layout-row layout-align-center-center"><div class="circle3"></div></div></div>
+		</div>
+		</div>
+		<div id="divCell">
+		<p id="paragrafSpacing">
+			<text class="testimonial_name">Ângela Luzia</text><br/>
+			<text class="testimonial_occupation">Chefe de Divisão de Museus e Património Cultural</text><br/>
+			<a class="testimonial_workplace" href="http://www.m-almada.pt/xportal/xmain?xpid=cmav2">Câmara Municipal de Almada</a>
+			</p>
+			<p id="justifyText">"Trabalhamos com a Artica no <a href="http://artica.cc/blog/2013/07/15/ciav-tech-report.html">Centro de Interpretação de Almada Velha</a> em que desenvolveram, produziram e instalaram a componente audiovisual, cenográfica e aplicação interativa estruturantes para este novo equipamento municipal. Mais do que uma eficaz relação contratual, com manifesta competência e profissionalismo técnico exigidos, nomeadamente  antecipando limitações e preocupações a posteriori de manutenção e gestão dos dispositivos por parte do cliente, encontramos um parceiro com uma enorme capacidade de interação e mobilização criativa no domínio do design, cenografia, criação de ambientes sonoros capazes de despertar emoções, passar informação, desafiar à descoberta do território. Um processo em que se conjugou o conhecimento científico/técnico para soluções contemporâneas, com o saber do artesão que constrói fazendo. Uma cumplicidade que gostaríamos de prosseguir futuramente."</p>
+
+		</div>
+				<div id="containedDivTable">
+		<div id="divPhotoCell">
+				<div class="circle layout-row layout-align-center-center"><div class="circle2 layout-row layout-align-center-center"><div class="circle3"></div></div></div>
+		</div>
+		</div>
+		<div id="divCell">
+		<p id="paragrafSpacing">
+			<text class="testimonial_name">Paulo Prata Ramos</text><br />
+			<text class="testimonial_occupation">Diretor Técnico | Technical Director</text><br />
+			<a class="testimonial_workplace" href="http://www.culturgest.pt/">Fundação Caixa Geral de Depósitos - Culturgest</a><br />
+			</p>
+			<p id="justifyText">"Os projetos Metamorfose (2012) e Metamorfose II (2014) foram processos de conceção coletiva envolvendo mais de trinta criadores. Foram projetos extraordinariamente gratificantes pelo ponto de vista artístico e humano mas se me pedirem para os resumir numa palavra seria “caos”. E foi no meio do caos que fomos iluminados pelas qualidades da equipa da Artica: capacidade de improviso, descontração, criatividade, disponibilidade, capacidade de ouvir, amizade. Seguramente voltaremos a trabalhar juntos em novos projetos."</p>
+		</div>
+		</div>
+</div>
 	</section>
 	
 	
@@ -204,5 +349,8 @@ fabrication processes and machinery, electronics, robotics, mechanics, hydraulic
 		</div>
 	</section>
 
+	<script>$(document).ready(function(){
+    $('.accordionMenu').createDiagonalSlider();
+});</script>
 </body>
 </html>
