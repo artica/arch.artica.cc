@@ -26,10 +26,10 @@
     overflow: hidden;
     vertical-align: top;
     margin-left: -20px;
-    -webkit-transition: width .5s;
-    -moz-transition: width .5s;
-    -o-transition: width .5s;
-    transition: width .5s;
+    -webkit-transition: width .1s;
+    -moz-transition: width .1s;
+    -o-transition: width .1s;
+    transition: width .1s;
 	/* rotate squares to seems in diagonal*/
     -webkit-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
     -moz-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
@@ -44,21 +44,21 @@
 
 .accordionSlider_item .accordionText a {
   color: #ED5929;
-  margin-right:3%;
+  margin-right:8%;
   bottom:0; 
   text-align: right;
   position:relative;
   float:right;
-  width:11%;
+  width:15%;
   border-bottom:1px solid white;
 }
 
 /* Fade in text when mouse pointer is over image. */
 .accordionSlider_item:hover .accordionText{
 	opacity: 1;
-	transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
+	transition: opacity .1s ease-in-out;
+   -moz-transition: opacity .1s ease-in-out;
+   -webkit-transition: opacity .1s ease-in-out;
    
    
 }
@@ -67,9 +67,9 @@
 .accordionSlider_item:after {
     content:'';
     opacity:0;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s ;
-    transition: all .5s;
+    -moz-transition: all .1s;
+    -webkit-transition: all .1s ;
+    transition: all .1s;
 	z-index: -1;
 }
 .accordionSlider_item:hover:after {
@@ -92,12 +92,12 @@
 	background-color:#00F;
 	width: 100%;
 	opacity: 0.5;
-	transition: brightness .5s ease-in-out;
-   -moz-transition: brightness .5s ease-in-out;
-   -webkit-transition: brightness .5s ease-in-out;
-   	transition: width .5s ease-in-out;
-   -moz-transition: width .5s ease-in-out;
-   -webkit-transition: width .5s ease-in-out;
+	transition: brightness .1s ease-in-out;
+   -moz-transition: brightness .1s ease-in-out;
+   -webkit-transition: brightness .1s ease-in-out;
+   	transition: width .1s ease-in-out;
+   -moz-transition: width .1s ease-in-out;
+   -webkit-transition: width .1s ease-in-out;
    
    
 }
