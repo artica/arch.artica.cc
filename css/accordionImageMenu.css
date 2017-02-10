@@ -5,14 +5,14 @@
     width: 100%;
 	position:relative;
     overflow: hidden;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .accordionMenu
 {
     overflow: hidden;
-    margin-left: 0px;
+    margin-left: 0%;
 
 }
 
@@ -26,10 +26,10 @@
     overflow: hidden;
     vertical-align: top;
     margin-left: -20px;
-    -webkit-transition: width 500ms;
-    -moz-transition: width 500ms;
-    -o-transition: width 500ms;
-    transition: width 500ms;
+    -webkit-transition: width .5s;
+    -moz-transition: width .5s;
+    -o-transition: width .5s;
+    transition: width .5s;
 	/* rotate squares to seems in diagonal*/
     -webkit-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
     -moz-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
@@ -44,12 +44,12 @@
 
 .accordionSlider_item .accordionText a {
   color: #ED5929;
-  margin-right:50px;
+  margin-right:3%;
   bottom:0; 
   text-align: right;
   position:relative;
   float:right;
-  width:140px;
+  width:11%;
   border-bottom:1px solid white;
 }
 
@@ -92,12 +92,12 @@
 	background-color:#00F;
 	width: 100%;
 	opacity: 0.5;
-	transition: brightness 3s ease-in-out;
-   -moz-transition: brightness 3s ease-in-out;
-   -webkit-transition: brightness 3s ease-in-out;
-   	transition: width 3s ease-in-out;
-   -moz-transition: width 3s ease-in-out;
-   -webkit-transition: width 3s ease-in-out;
+	transition: brightness .5s ease-in-out;
+   -moz-transition: brightness .5s ease-in-out;
+   -webkit-transition: brightness .5s ease-in-out;
+   	transition: width .5s ease-in-out;
+   -moz-transition: width .5s ease-in-out;
+   -webkit-transition: width .5s ease-in-out;
    
    
 }
@@ -111,8 +111,8 @@
     -moz-transform: translate3d(0, 0, 0) skew(20deg, 0deg);
     -ms-transform: translate3d(0, 0, 0) skew(20deg, 0deg);
     transform: translate3d(0, 0, 0) skew(20deg, 0deg);
-    top: 50px;
-    left: 100px;
+    top: 5%;
+    left: 7%;
 		 float:right;
 		 opacity: 0;
 	

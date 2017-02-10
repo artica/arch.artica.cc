@@ -1185,6 +1185,12 @@ ul{
 	border-radius:50px;
 	background:#F9CB98
 	}
+	.circleRight{
+	width:70px;
+	height:70px;
+	border-radius:50px;
+	background:#F9CB98
+	}
 .circle2{width:80%;
 height:80%;
 border-radius:50px;
@@ -1196,49 +1202,71 @@ border-radius:50px;
 background: white;
 }
 
+
 #containedDivTable {
     display:table;
     width:100%;
-    height:30px;
+    height:10%;
+	
 }
 
 #containedDivMainTable {
     display:table;
     width:90%;
     height:20%;
-	margin-left: 45px;
-	margin-top: 15px;
+	margin-left: 0%;
+	margin-top: 1.5%;
 	}
 
-#divCell {
-	  position: relative;
+.divCell {
+	position: relative;
     display:table-cell;
-    width:40%;
 }
+.rightCell{
+	  left: 10%;
+}
+
+
+.divCell.span-6 {
+   width: 44.6969697%;
+}
+
+.divPhotoCell.span-6 {
+  width: 44.6969697%;
+}
+
 #divRow {
     display:table-row;
 }
-#divPhotoCell {
+.divPhotoCell {
 	position: relative;
     display:table-cell;
     width:5%; 
 	
 }
 
-#divPhotoCell .circle {
+.divPhotoCell .circle {
   position: absolute;
-  right: 0;
+  right: 0%;
   top: 50%;
-  margin-top: -5px;
-  margin-right: 7px;  
+  margin-top: 0%;
+  margin-right: -230%;  
 }
+.divPhotoCell .circleRight {
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  margin-top: 0%;
+  margin-right: -400%;  
+}
+
 
 #justifyText{
 	text-align: justify;
     text-justify: inter-word;
-	font-size: 13px;
+	font-size: 11px;
 }
 #paragrafSpacing{
-	margin: 10px;
+	margin: 2%;
 }
 
