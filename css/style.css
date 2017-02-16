@@ -1223,12 +1223,12 @@ background: white;
     display:table-cell;
 }
 .rightCell{
-	  left: 10%;
+	  left: 7%;
 }
 
 
 .divCell.span-6 {
-   width: 44.6969697%;
+   width: 46.6969697%;
 }
 
 .divPhotoCell.span-6 {
@@ -1247,17 +1247,16 @@ background: white;
 
 .divPhotoCell .circle {
   position: absolute;
-  right: 0%;
   top: 50%;
   margin-top: 0%;
-  margin-right: -230%;  
+  margin-left: 250%;  
 }
 .divPhotoCell .circleRight {
   position: absolute;
-  right: 0%;
+ 
   top: 50%;
   margin-top: 0%;
-  margin-right: -400%;  
+  margin-left: 450%;  
 }
 
 
